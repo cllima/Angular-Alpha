@@ -1,0 +1,2 @@
+# Angular-Alpha
+ *ngFor
