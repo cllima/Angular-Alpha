@@ -1,0 +1,25 @@
+<div class='content'>
+    <h2>{{ subtitulo }}</h2>
+
+    <table class='bordaTabela'>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Direção</th>
+                <th>Elenco</th>
+                <th>Ano de Lançamento</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor='let i of filmes'>
+                <td>{{ i.titulo }}</td>
+                <td>{{ i.direcao }}</td>
+                <td>{{ i.elenco }}</td>
+                <td>{{ i.anoLancamento }}</td>
+            </tr>
+        </tbody>
+
+    </table>
+   
+</div>
